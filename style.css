@@ -1,0 +1,58 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@600&display=swap');
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+    color: black;
+}
+h1, h2, h3 {
+    font-family: Raleway, sans-serif;
+}
+
+#cslogo {
+    width: 5%;
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+}
+
+#navbar {
+    font-size: 120%;
+    letter-spacing: 3px;
+    line-height: 90px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px; 
+    
+}
+#navbar a {
+    text-decoration: none; 
+}
+#navbar a:hover {
+    color: blue;
+}
+
+/* cover picture */
+
+#outside-cover {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+#cover {
+    background: url("/assets/images/redcharlie-MVyF3usiDvI-unsplash.jpg") no-repeat center center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
