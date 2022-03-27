@@ -34,7 +34,59 @@
             </ul>
         </nav>
     </header>
-   <h1>contact</h1>
+
+    <!-- Cover image  and cover text -->
+    <section id="outside-cover">
+        <div id="cover-img"></div>
+        <div id="cover-text">
+            <h2>"That every surfer and every surfing community has opportunity to know and follow Jesus"</h2>
+        </div>
+        <div></div>
+    </section>
+
+    <!-- Contact form -->
+    <form action="https://formdump.codeinstitute.net" method="post" target="_blank">
+
+        <label for="name-input">Your Name</label>
+        <input id="name-input" type="text" name="fullname" placeholder="First and last name" required>
+        <label for="email-input">Your Email</label>
+        <input type="email" name="email" id="email-input" placeholder="Email@adres.nl" required>
+        <label for="continent-input"></label>
+        <input name="continent" id="continent-input" list="continents">
+        <datalist id="continents">
+            <option value="Asia"></option>
+            <option value="Africa"></option>
+            <option value="Australia"></option>
+            <option value="Antartica"></option>
+            <option value="Europe"></option>
+            <option value="North America"></option>
+            <option value="South America"></option>
+        </datalist>
+        <label for="message-input">Your Message</label>
+        <input type="text" name="message" id="message-input" placeholder="Type your message here" required>
+
+        <input type="submit" value="Send">
+
+    </form>
+
+        <!-- Footer -->
+   <footer>
+       <span>
+          &copy;Copyright 2022 Christian Surfers Skiffa 
+       </span>
+       <div id="footer-links">
+            <a href="https://www.facebook.com/CSScheveningen" target="_blank" rel="noopener" 
+            aria-label="Link to our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/christiansurfers_/" target="_blank" rel="noopener" 
+            aria-label="Link to our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+   </footer>
+
+    </section>
     
+  <!-- Kit code font awesome -->
+  <script src="https://kit.fontawesome.com/880310c6eb.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
