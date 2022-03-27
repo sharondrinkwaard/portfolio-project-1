@@ -8,6 +8,13 @@
     border: none;
 }
 
+/* color palette colors:
+rgb(60,92,96) cover background
+rgb(243,211,188) cover text
+
+
+*/
+
 body {
     font-family: Quicksand, sans-serif;
     color: black;
@@ -17,16 +24,17 @@ h1, h2, h3 {
 }
 
 #cslogo {
-    width: 5%;
+    width: 100px;
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 80px;
     float: left;
 }
 
 #navbar {
-    font-size: 120%;
-    letter-spacing: 3px;
+    font-size: 130%;
+    letter-spacing: 2px;
     line-height: 90px;
+    margin-right: 80px;
 }
 
 #navbar li {
@@ -41,6 +49,7 @@ h1, h2, h3 {
 #navbar a:hover {
     color: rgb(186,124,70);
     border: 1px solid black;
+    border-radius: 30px;
 }
 
 
@@ -61,7 +70,7 @@ h1, h2, h3 {
 
 /* cover text */
 
-#cover-text {
+#cover-text h2 {
     font-family: raleway, sans-serif;
     font-size: 135%;
     color: rgb(243,211,188);
@@ -84,16 +93,24 @@ h1, h2, h3 {
 #intro {
     height: 500px;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 .left {
-    width: 45%;
+    width: 640px;
     padding: 30px;
     float: left;
+    margin-left: 80px;
 }
 .right {
-    width: 45%;
+    width: 640px;
+    height: 360px;
     padding: 15px;
     float: right;
+    margin-right: 80px;
+}
+#intro-text {
+    height: 360px;
 }
 #intro-text h2 {
     font-size: 180%;
@@ -102,17 +119,33 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: black;
     line-height: 30px;
+    padding-bottom: 10px;
 }
-#intro-text {
-    float: left;
-}
-#intro-text p {
+#intro-text > p {
     margin-top: 15px;
+    
 }
 #intro-video {
     margin-top: 20px;
 }
 
-#intro-text, #intro-video {
-    
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 45px;
+    color: rgb(243,211,188);
+    background-color: rgb(186,124,70);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+footer span {
+    margin-left: 80px;
+}
+footer i {
+    color: rgb(243,211,188);
+    font-size: 180%;
+    margin-left: 15px;
 }
