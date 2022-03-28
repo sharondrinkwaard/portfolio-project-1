@@ -149,3 +149,60 @@ footer i {
     font-size: 180%;
     margin-left: 15px;
 }
+
+/* Form styling */
+
+form {
+    max-width: 500px;
+    height: 500px;
+    background-color: rgb(60,92,96, 0.8);
+    color: rgb(243,211,188);
+    margin: 50px auto;
+    margin-bottom: 95px;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: left;
+}
+
+.block {
+    display: block;
+
+}
+label {
+    margin: 15px 20px 5px 0;
+    font-weight: bold;
+    font-size: large;
+}
+form h1 {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+form div {
+    margin: 30px;
+}
+
+form input {
+    height: 30px;
+}
+form input, textarea {
+    font-size: absolute;    
+    border-radius: 5px;
+}
+
+
+form input[type="submit"] {
+    float: right;
+    font-size: large;
+    padding: 10px 15px;
+    padding-bottom: 20px;
+    color: rgb(60,92,96);
+    background-color: rgb(243,211,188);
+}
+input[type="submit"]:hover {
+    color: rgb(243,211,188);
+    background-color: rgb(60,92,96);
+
+}
+
+

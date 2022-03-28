@@ -45,28 +45,35 @@
     </section>
 
     <!-- Contact form -->
+    
     <form action="https://formdump.codeinstitute.net" method="post" target="_blank">
+        <h1>Feel free to contact us!</h1>
 
-        <label for="name-input">Your Name</label>
-        <input id="name-input" type="text" name="fullname" placeholder="First and last name" required>
-        <label for="email-input">Your Email</label>
-        <input type="email" name="email" id="email-input" placeholder="Email@adres.nl" required>
-        <label for="continent-input"></label>
-        <input name="continent" id="continent-input" list="continents">
-        <datalist id="continents">
-            <option value="Asia"></option>
-            <option value="Africa"></option>
-            <option value="Australia"></option>
-            <option value="Antartica"></option>
-            <option value="Europe"></option>
-            <option value="North America"></option>
-            <option value="South America"></option>
-        </datalist>
-        <label for="message-input">Your Message</label>
-        <input type="text" name="message" id="message-input" placeholder="Type your message here" required>
-
-        <input type="submit" value="Send">
-
+        <div>
+            <label for="name-input" class="block">Your Name</label>
+            <input id="name-input" type="text" name="fullname" required>
+        
+            <label for="email-input" class="block">Your Email</label>
+            <input type="email" name="email" id="email-input" required>
+        
+            <label for="continent-input" class="block">Continent</label>
+            <input name="continent" id="continent-input" list="continents">
+            <datalist id="continents">
+                <option value="Asia"></option>
+                <option value="Africa"></option>
+                <option value="Australia"></option>
+                <option value="Antartica"></option>
+                <option value="Europe"></option>
+                <option value="North America"></option>
+                <option value="South America"></option>
+            </datalist>
+        
+            <label for="message-input" class="block">Your Message</label>
+            <textarea name="message" id="message-input" cols="30" rows="10" placeholder=" Type your message here" required></textarea>
+        
+        
+            <input class="block" type="submit" value="Send">
+        </div>
     </form>
 
         <!-- Footer -->
