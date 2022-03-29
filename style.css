@@ -48,8 +48,8 @@ h1, h2, h3 {
 }
 #navbar a:hover {
     color: rgb(186,124,70);
-    border: 1px solid black;
-    border-radius: 30px;
+    text-decoration: underline;
+    text-decoration-style: 1px solid;
 }
 
 
@@ -115,14 +115,23 @@ h1, h2, h3 {
 #intro {
     height: 500px;
     width: 100%;
+    margin-top: 10px;
     display: flex;
     justify-content: flex-end;
 }
 .left {
     width: 640px;
     padding: 30px;
+    padding-bottom: 0;
     float: left;
     margin-left: 80px;
+}
+.left a {
+    color: rgb(60,92,96);
+    text-decoration: none;
+}
+.left a:hover {
+    text-decoration: underline;
 }
 .right {
     width: 640px;
@@ -172,7 +181,8 @@ footer i {
     margin-left: 15px;
 }
 
-/* Form styling */
+
+/* Form styling, contact page */
 
 form {
     max-width: 500px;
