@@ -74,20 +74,20 @@ header {
     overflow: hidden;
 }
 #cover-img /* index page*/{
-    background: url("/assets/images/redcharlie-MVyF3usiDvI-unsplash.jpg") no-repeat center center;
+    background: url("/assets/images/csi1.jpg") no-repeat center center;
     height: 80%;
     width: 100%;
     background-size: cover;
 }
 #cover-img-2 /* about us page */{
-    background: url("/assets/images/pexels-los-muertos-crew-8908114.jpg") no-repeat center center;
+    background: url("/assets/images/csi2.jpg") no-repeat center center;
     height: 80%;
     width: 100%;
     background-size: cover;
     
 }
 #cover-img-3 /* get involved page */{
-    background: url("/assets/images/Christian-Surfers-International-Gathering.jpg") no-repeat center;
+    background: url("/assets/images/csi3.jpg") no-repeat center;
     height: 80%;
     width: 100%;
     background-size: cover;
@@ -97,7 +97,7 @@ header {
     position: relative;
 }
 #cover-img-4 /* contact page */{
-    background: url("/assets/images/pexels-jess-loiterton-4600761.jpg") no-repeat center center;
+    background: url("/assets/images/csi4.jpg") no-repeat center center;
     height: 80%;
     width: 100%;
     background-size: cover;
@@ -282,3 +282,4 @@ input[type="submit"]:hover {
         footer {
             font-size: 12px;
         }
+    }
