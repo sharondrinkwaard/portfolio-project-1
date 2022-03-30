@@ -1,6 +1,7 @@
 /* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@600&display=swap');
 
+
 /* General */
 * {
     margin: 0;
@@ -11,14 +12,21 @@
 /* color palette colors:
 rgb(60,92,96) cover background
 rgb(243,211,188) cover text
-
-
 */
 
 body {
     font-family: Quicksand, sans-serif;
     color: black;
     margin-bottom: 70px;
+}
+h1 {
+    font-size: 180%;
+    text-decoration: none;
+    text-decoration-thickness: 2px;
+    letter-spacing: 2px;
+    color: black;
+    line-height: 30px;
+    padding-bottom: 10px;
 }
 h1, h2, h3 {
     font-family: Raleway, sans-serif;
@@ -29,7 +37,6 @@ h1, h2, h3 {
     margin-top: 15%;
     margin-left: 15%;
     max-width: 100px;
-    
 }
 header {
     display: flex;
@@ -45,11 +52,9 @@ header {
     display: flex;
     justify-content: flex-end;
 }
-
 #navbar li {
     list-style-type: none;
     margin-right: 30px; 
-    
 }
 #navbar a {
     text-decoration: none; 
@@ -87,7 +92,7 @@ header {
     
 }
 #cover-img-3 /* get involved page */{
-    background: url("/assets/images/csi3.jpg") no-repeat center;
+    background: url("/assets/images/csi5.jpg") no-repeat center;
     height: 80%;
     width: 100%;
     background-size: cover;
@@ -103,7 +108,9 @@ header {
     background-size: cover;
 }
 
+
 /* cover text */
+
 #cover-text {
     display: flex;
 }
@@ -119,13 +126,13 @@ header {
     bottom: 50%;
 }
 
+
 /* Introduction section */
 
 #intro {
     height: 500px;
     width: 100%;
     margin-top: 10px;
-    
 }
 .left {
     width: 70%;
@@ -140,18 +147,16 @@ header {
 .left a:hover {
     text-decoration: underline;
 }
-.right {
+.right /*VERWIJDEREN??*/{
     width: 50%;
     padding: 15px;
     margin-right: 80px;
-    
 }
 #intro-text {
-    
     display: flex;
     flex-direction: column;
 }
-#intro-text h1, h2 {
+#intro-text h2 {
     font-size: 180%;
     text-decoration: none;
     text-decoration-thickness: 2px;
@@ -161,15 +166,14 @@ header {
     padding-bottom: 10px;
 }
 #intro-text > p {
-    margin-top: 15px;
-    
+    margin-top: 15px; 
 }
 #intro-video {
     margin-top: 20px;
 }
 iframe { 
     width: 100%; 
-    height: 56.25vw; /* 100 * (9/16) */
+    height: 56.25vw;
 }
 
 
@@ -179,7 +183,6 @@ iframe {
 footer {
     width: 100%;
     height: 45px;
-    
     color: rgb(243,211,188);
     background-color: rgb(186,124,70);
     position: fixed;
@@ -190,7 +193,6 @@ footer {
 }
 footer span {
     margin-left: 3%;
-    
 }
 footer i {
     color: rgb(243,211,188);
@@ -198,6 +200,24 @@ footer i {
     margin-left: 15px;
 }
 
+
+/* Positioning about us page */
+
+.core-values-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+.main-core {
+    flex: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.left-core, .right-core {
+    flex: 40%;
+    margin: 10px 15px;
+}
 
 /* Form styling, contact page */
 
@@ -239,7 +259,6 @@ form input, textarea {
     border-radius: 5px;
 }
 
-
 form input[type="submit"] {
     float: right;
     font-size: large;
@@ -253,33 +272,34 @@ input[type="submit"]:hover {
 
 }
 
+
 /* Media querie 700px and below */
 
 @media screen and (max-width:700px){
     header {
         display: flex;
         flex-direction: column;
-        }
+    }
         
-        #navbar {
+    #navbar {
         display: flex;
         flex-direction: column;
         align-items: center; 
         line-height: 30px;   
-        }
-        #navbar li {
-            margin-right: 0;
-        }
-        #cslogo {
-            margin: 0 auto;
-        }
-        #cover-img, #cover-img-2, #cover-img-3, #cover-img-4 {
-            height: 50%;
-        }
-        #cover-text h2{
-            bottom: 65%;
-        }
-        footer {
-            font-size: 12px;
-        }
     }
+    #navbar li {
+        margin-right: 0;
+    }
+    #cslogo {
+        margin: 0 auto;
+    }
+    #cover-img, #cover-img-2, #cover-img-3, #cover-img-4 {
+        height: 50%;
+    }
+    #cover-text h2{
+        bottom: 65%;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
