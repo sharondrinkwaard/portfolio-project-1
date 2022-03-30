@@ -18,27 +18,35 @@ rgb(243,211,188) cover text
 body {
     font-family: Quicksand, sans-serif;
     color: black;
+    margin-bottom: 70px;
 }
 h1, h2, h3 {
     font-family: Raleway, sans-serif;
 }
 
 #cslogo {
-    width: 100px;
-    margin-top: 15px;
-    margin-left: 80px;
-    float: left;
+
+    margin-top: 15%;
+    margin-left: 15%;
+    max-width: 100px;
+    
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #navbar {
     font-size: 130%;
     letter-spacing: 2px;
     line-height: 90px;
-    margin-right: 80px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #navbar li {
-    float: right;
     list-style-type: none;
     margin-right: 30px; 
     
@@ -50,6 +58,10 @@ h1, h2, h3 {
     color: rgb(186,124,70);
     text-decoration: underline;
     text-decoration-style: 1px solid;
+}
+.nav-active {
+    text-decoration: underline;
+    text-decoration-style: 1px solid black;
 }
 
 
@@ -91,18 +103,20 @@ h1, h2, h3 {
 }
 
 /* cover text */
-
+#cover-text {
+    display: flex;
+}
 #cover-text h2 {
     font-family: raleway, sans-serif;
     font-size: 135%;
     color: rgb(243,211,188);
-    padding: 30px 0 0 30px;
+    padding: 2%;
     background-color: rgb(60,92,96, 0.7);
-    border-radius: 30px;
+    border-radius: 10px;
 
     position: absolute;
-    width: 50%;
-    height: 120px;
+    width: 25%;
+    height: auto;
 
     bottom: 200px;
     left: 5%;
@@ -116,15 +130,13 @@ h1, h2, h3 {
     height: 500px;
     width: 100%;
     margin-top: 10px;
-    display: flex;
-    justify-content: flex-end;
+    
 }
 .left {
-    width: 640px;
+    width: 70%;
     padding: 30px;
     padding-bottom: 0;
-    float: left;
-    margin-left: 80px;
+    margin: 0 auto;
 }
 .left a {
     color: rgb(60,92,96);
@@ -134,16 +146,17 @@ h1, h2, h3 {
     text-decoration: underline;
 }
 .right {
-    width: 640px;
-    height: 360px;
+    width: 50%;
     padding: 15px;
-    float: right;
     margin-right: 80px;
+    
 }
 #intro-text {
-    height: 360px;
+    
+    display: flex;
+    flex-direction: column;
 }
-#intro-text h2 {
+#intro-text h1, h2 {
     font-size: 180%;
     text-decoration: none;
     text-decoration-thickness: 2px;
@@ -159,12 +172,21 @@ h1, h2, h3 {
 #intro-video {
     margin-top: 20px;
 }
+iframe { 
+    width: 100%; 
+    height: 56.25vw; /* 100 * (9/16) */
+}
+#video1 {
+    min-width: max-content;
+}
+
 
 /* Footer */
 
 footer {
     width: 100%;
     height: 45px;
+    
     color: rgb(243,211,188);
     background-color: rgb(186,124,70);
     position: fixed;
@@ -174,6 +196,7 @@ footer {
 }
 footer span {
     margin-left: 80px;
+    
 }
 footer i {
     color: rgb(243,211,188);
@@ -236,4 +259,22 @@ input[type="submit"]:hover {
 
 }
 
-
+/* Media queries */
+@media screen and (max-width:700px){
+    header {
+        display: flex;
+        flex-direction: column;
+        }
+        
+        #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        line-height: 30px;   
+        }
+        #navbar li {
+            margin-right: 0;
+        }
+        #cslogo {
+            margin: 0 auto;
+        }
