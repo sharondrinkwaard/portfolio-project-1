@@ -60,13 +60,15 @@ header {
     text-decoration: none; 
 }
 #navbar a:hover {
-    color: rgb(186,124,70);
+    color: #654F2F;
     text-decoration: underline;
-    text-decoration-style: 1px solid;
+    text-decoration-style: solid;
+    text-decoration-color: black;
 }
 .nav-active {
     text-decoration: underline;
-    text-decoration-style: 1px solid black;
+    text-decoration-style: solid;
+    text-decoration-color: black;
 }
 
 
@@ -223,8 +225,7 @@ footer i {
 
 form {
     max-width: 70%;
-    background-color: rgb(60,92,96, 0.8);
-    color: rgb(243,211,188);
+    color: #654F2F;
     margin: 0 15%;
     padding: 2%;
     border-radius: 5px;
@@ -256,23 +257,25 @@ form input {
     border-radius: 5px;
     width: 50%;
     padding: 5px;
+    background-color: rgb(243,211,188);
 }
 #message-input {
     width: 70%;
     border-radius: 5px;
     padding: 5px;
+    background-color: rgb(243,211,188);
 }
 
 form input[type="submit"] {
     font-size: large;
-    color: rgb(60,92,96);
-    background-color: rgb(243,211,188);
+    color: rgb(243,211,188);
+    background-color: #654F2F;
     width: 30%;
     margin-top: 5px;
 }
 form input[type="submit"]:hover {
-    color: rgb(243,211,188);
-    background-color: rgb(60,92,96);
+    color: #654F2F;
+    background-color: rgb(243,211,188);
 
 }
 
@@ -296,11 +299,12 @@ form input[type="submit"]:hover {
     #cslogo {
         margin: 0 auto;
     }
-    #cover-img, #cover-img-2, #cover-img-3, #cover-img-4 {
-        height: 50%;
+    #outside-cover {
+        height: 200px;
     }
     #cover-text h2{
-        bottom: 65%;
+        bottom: 50%;
+        font-size: medium;
     }
     footer {
         font-size: 12px;
