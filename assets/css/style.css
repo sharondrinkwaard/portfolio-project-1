@@ -213,7 +213,7 @@ footer i {
 .main-core {
     flex: 100%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 .left-core, .right-core {
     flex: 40%;
@@ -249,6 +249,9 @@ form h1 {
 #form-container {
     margin: 5%;
 }
+/* .outside-form {
+    
+} */
 
 form input {
     font-size: 85%;    
