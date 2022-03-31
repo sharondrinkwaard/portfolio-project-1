@@ -120,7 +120,7 @@ header {
     color: rgb(243,211,188);
     padding: 2%;
     background-color: rgb(60,92,96, 0.7);
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     position: absolute;
     bottom: 50%;
@@ -155,6 +155,7 @@ header {
 #intro-text {
     display: flex;
     flex-direction: column;
+    
 }
 #intro-text h2 {
     font-size: 180%;
@@ -219,18 +220,16 @@ footer i {
     margin: 10px 15px;
 }
 
+
 /* Form styling, contact page */
 
 form {
-    max-width: 500px;
-    height: 500px;
+    max-width: 70%;
     background-color: rgb(60,92,96, 0.8);
     color: rgb(243,211,188);
-    margin: 50px auto;
-    margin-bottom: 95px;
-    border-radius: 25px;
-    padding: 15px;
-    text-align: left;
+    margin: 0 15%;
+    padding: 2%;
+    border-radius: 5px;
 }
 
 .block {
@@ -247,33 +246,37 @@ form h1 {
     margin-top: 15px;
     text-align: center;
 }
-form div {
-    margin: 30px;
+#form-container {
+    margin: 5%;
 }
 
 form input {
-    height: 30px;
-}
-form input, textarea {
-    font-size: absolute;    
+    font-size: 85%;    
     border-radius: 5px;
+    width: 50%;
+    padding: 5px;
+}
+#message-input {
+    width: 70%;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 form input[type="submit"] {
-    float: right;
     font-size: large;
-    padding: 10px 15px 20px;
     color: rgb(60,92,96);
     background-color: rgb(243,211,188);
+    width: 30%;
+    margin-top: 5px;
 }
-input[type="submit"]:hover {
+form input[type="submit"]:hover {
     color: rgb(243,211,188);
     background-color: rgb(60,92,96);
 
 }
 
 
-/* Media querie 700px and below */
+/* Media queries 700px and below */
 
 @media screen and (max-width:700px){
     header {
@@ -301,5 +304,21 @@ input[type="submit"]:hover {
     }
     footer {
         font-size: 12px;
+    }
+
+   #intro-text, .core-values-wrap, .left, form {
+        transform: translate(0px, -220px);
+    }
+    
+
+    /* form */
+    form input {
+        width: 85%;
+    }
+    #form-container {
+        width: 100%;
+    }
+    #message-input {
+        width: 85%;
     }
 }
