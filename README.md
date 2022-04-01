@@ -1,108 +1,88 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Christian Surfers Skiffa
 
-Welcome sharondrinkwaard,
+This project is created to help surfers get in contact with the local surf community in Scheveningen ( skiffa in short slang language ).
+My goal is to make it easier for users to find Christian Surfers on the internet, knowing that there is a need for. There is only an international website which makes it hard to reach this specific local surfing community. While I know a lot of surfers who are trying to connect with others and are still struggling finding a way. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+As Christian Surfers we want to live life together. Having fun, enjoying coffee's, surfing pumping waves and share our main believe in Jesus above all.  
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![This is a mockup of the website](../portfolio-project-1/docs/mockup.png)
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Logo and navigation bar
+    - Identical featured on all four pages. Fully responsive and includes a logo which links to the homepage, a navigation bar with links to the About Us, Get Involved and the Contact page.
+    - This navigation bar wil allow the user to navigate to different pages to find the information they are looking for.
+![navigationbar](../portfolio-project-1/docs/navigation-bar.png)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+* Header Images
+    - Different on each page but the same style and position. Even the location on the images are the same. It shows pictures of our beach town Scheveningen.
+    - The images will give the user a first impression of our surfing culture and the location.
+![This is the header image](../portfolio-project-1/docs/header-image-index.png)
+* Introduction
+    - This descibes who we are as Christian Surfers very shortly. A link to other the pages is included where more information can be found. 
+    - With this introduction I hope to get the users attention to stay on this website and have a look around.
+![This is the introduction](../portfolio-project-1/docs/introduction.png)
+* Video
+    - This video is an international promotion video where you can get to see who we are and what we do.
+    - With this promotion video I hope to catch the users attention in a different way than only text.
+![This is the promotion video](../portfolio-project-1/docs/promotion-video.png)
+* Footer
+    - Included a copyright and links to our Facebook and Instagram page.
+    - These might helpt the user to find our social media channels easier. Our social media is another great way of showing what Christian Surfers is about.
+![This is the footer](../portfolio-project-1/docs/footer.png)
+* About Us 
+    - On this page you can find more information of who we are. Our core values can be found here.
+    - The core values might be very important to the user. As they describe the values the user might be looking for in a community.
+![This is the About Us page](../portfolio-project-1/docs/about-us.png)
+* Get Involved
+    - On this page you can find more information of what we do. How and where we meet up and what activities we do. 
+    - The user might be interested in the activities we do. Also the added video can draw their attention in a different way. 
+![This is the Get Involved page](../portfolio-project-1/docs/get-involved1.png)
+![This is the Get Involved page](../portfolio-project-1/docs/get-involved2.png)
+![This is the Get Involved page](../portfolio-project-1/docs/get-involved3.png)
+* Contact Form
+    - A contact form asking for your name, email, continent and message. All fields are required except for the Continent field.
+    - The user can fill in this form to get in contact with Christian Surfers. 
+![This is the contact form](../portfolio-project-1/docs/contact-form.png)
 
-Another blue button should appear to click: _Open Browser_.
+## Features Left To Implement
+* In the future I would like to add a webshop to this website where I could sell items like t-shirts, caps, Bibles and more to support the movement of Christian Surfers. 
+* Another feature would be an synchronised agenda where the user can see when and where we meet.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Testing
+- I have tested that the logo directs to the index page
+- I have tested that all the navigation links link to the right page
+- I have checked that the right images are loaded from the right files
+- I have tested that my design is responsive on different screensizes. 
+- I have tested the website on accessibility with the Wave.webaim tool to make sure that there are no contrast errors
+- I have tested the footer links that they work and link to the right pages
+- I have tested that all links direction to another website, open in a new tab
+- I have tested that the video's are responsive besides the media queries.
 
-A blue button should appear to click: _Make Public_,
+## Validator Testing
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
-Another blue button should appear to click: _Open Browser_.
+## Unfixed Bugs
+At this very moment of writing this README file, there are no unfixed bugs.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to Settings
+- On your left you can find the menu. Scroll down and navigate to Pages
+- From the source section drop-down menu, select Main and click on Save
+- On top of the page a link will show saying that the website is publiced
 
-To log into the Heroku toolbelt CLI:
+The link can be found here: https://sharondrinkwaard.github.io/portfolio-project-1/
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Credits
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Content
+- The text of the About Us page is taken from [Christian Surfers International](https://www.christiansurfers.net/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The lettertype was taken from [Google Fonts](https://fonts.google.com/)
+- Instructions on how to make video's responsive were taken from [W3schools](https://www.w3schools.com/)
+### Media
+- The header images are taken from [Pexels](https://www.pexels.com/nl-nl/)
+- The video's are taken from [Vimeo](https://vimeo.com/)
