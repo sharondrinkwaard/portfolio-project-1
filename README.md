@@ -5,7 +5,7 @@ My goal is to make it easier for users to find Christian Surfers on the internet
 
 As Christian Surfers we want to live life together. Having fun, enjoying coffee's, surfing pumping waves and share our main believe in Jesus above all.  
 
-![This is a mockup of the website](../portfolio-project-1/docs/mockup.png)
+![This is a mockup of the website](./docs/mockup.png)
 
 ## Features
 
