@@ -8,12 +8,6 @@
     padding: 0;
     border: none;
 }
-
-/* color palette colors:
-rgb(60,92,96) cover background
-rgb(243,211,188) cover text
-*/
-
 body {
     font-family: Quicksand, sans-serif;
     color: black;
@@ -31,7 +25,6 @@ h1 {
 h1, h2, h3 {
     font-family: Raleway, sans-serif;
 }
-
 #cslogo {
 
     margin-top: 15%;
@@ -44,6 +37,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+
+/* Navigation bar */
 
 #navbar {
     font-size: 130%;
@@ -72,7 +68,7 @@ header {
 }
 
 
-/* cover picture */
+/* cover pictures, source is pexels.com */
 
 #outside-cover {
     position: relative;
@@ -91,7 +87,6 @@ header {
     height: 100%;
     width: 100%;
     background-size: cover;
-    
 }
 #cover-img-3 /* get involved page */{
     background: url("../images/csi5.jpg") no-repeat center;
@@ -128,10 +123,11 @@ header {
 
 
 /* Introduction section */
+
 .intro {
     margin-top: 50px;
 }
-#intro  /* VERWIJDEREN?? */{
+#intro {
     height: 500px;
     width: 100%;
     margin-top: 10px;
@@ -149,15 +145,9 @@ header {
 .left a:hover {
     text-decoration: underline;
 }
-.right /*VERWIJDEREN??*/{
-    width: 50%;
-    padding: 15px;
-    margin-right: 80px;
-}
 #intro-text {
     display: flex;
     flex-direction: column;
-    
 }
 #intro-text h2 {
     font-size: 180%;
@@ -171,11 +161,10 @@ header {
 #intro-text > p {
     margin-top: 15px; 
 }
-iframe { 
+iframe /* instruction source w3schools.com */ { 
     width: 100%; 
     height: 56.25vw;
 }
-
 
 
 /* Footer */
@@ -230,10 +219,8 @@ form {
     padding: 2%;
     border-radius: 5px;
 }
-
 .block {
     display: block;
-
 }
 label {
     margin: 15px 20px 5px 0;
@@ -251,7 +238,6 @@ form h1 {
 .outside-form {
     padding-top: 30px;
 }
-
 form input {
     font-size: 85%;    
     border-radius: 5px;
@@ -265,7 +251,6 @@ form input {
     padding: 5px;
     background-color: rgb(243,211,188);
 }
-
 form input[type="submit"] {
     font-size: large;
     color: rgb(243,211,188);
@@ -276,11 +261,10 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     color: #654F2F;
     background-color: rgb(243,211,188);
-
 }
 
 
-/* Media queries 700px and below */
+/* Media queries for screens 700px and below */
 
 @media screen and (max-width:700px){
     header {
@@ -310,7 +294,9 @@ form input[type="submit"]:hover {
         font-size: 12px;
     }
 
+
     /* form */
+
     form input {
         width: 85%;
     }

@@ -37,7 +37,7 @@ As Christian Surfers we want to live life together. Having fun, enjoying coffee'
 ![This is the About Us page](./docs/about-us.png)
 * Get Involved
     - On this page you can find more information of what we do. How and where we meet up and what activities we do. 
-    - The user might be interested in the activities we do. Also the added video can draw their attention in a different way. 
+    - The user might be interested in the activities we do. Also the added video can draw their attention in a different way.
 ![This is the Get Involved page](./docs/get-involved1.png)
 ![This is the Get Involved page](./docs/get-involved2.png)
 ![This is the Get Involved page](./docs/get-involved3.png)
