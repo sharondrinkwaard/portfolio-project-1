@@ -12,39 +12,39 @@ As Christian Surfers we want to live life together. Having fun, enjoying coffee'
 * Logo and navigation bar
     - Identical featured on all four pages. Fully responsive and includes a logo which links to the homepage, a navigation bar with links to the About Us, Get Involved and the Contact page.
     - This navigation bar wil allow the user to navigate to different pages to find the information they are looking for.
-![navigationbar](../portfolio-project-1/docs/navigation-bar.png)
+![navigationbar](./docs/navigation-bar.png)
 
 
 * Header Images
     - Different on each page but the same style and position. Even the location on the images are the same. It shows pictures of our beach town Scheveningen.
     - The images will give the user a first impression of our surfing culture and the location.
-![This is the header image](../portfolio-project-1/docs/header-image-index.png)
+![This is the header image](./docs/header-image-index.png)
 * Introduction
     - This descibes who we are as Christian Surfers very shortly. A link to other the pages is included where more information can be found. 
     - With this introduction I hope to get the users attention to stay on this website and have a look around.
-![This is the introduction](../portfolio-project-1/docs/introduction.png)
+![This is the introduction](./docs/introduction.png)
 * Video
     - This video is an international promotion video where you can get to see who we are and what we do.
     - With this promotion video I hope to catch the users attention in a different way than only text.
-![This is the promotion video](../portfolio-project-1/docs/promotion-video.png)
+![This is the promotion video](./docs/promotion-video.png)
 * Footer
     - Included a copyright and links to our Facebook and Instagram page.
     - These might helpt the user to find our social media channels easier. Our social media is another great way of showing what Christian Surfers is about.
-![This is the footer](../portfolio-project-1/docs/footer.png)
+![This is the footer](./docs/footer.png)
 * About Us 
     - On this page you can find more information of who we are. Our core values can be found here.
     - The core values might be very important to the user. As they describe the values the user might be looking for in a community.
-![This is the About Us page](../portfolio-project-1/docs/about-us.png)
+![This is the About Us page](./docs/about-us.png)
 * Get Involved
     - On this page you can find more information of what we do. How and where we meet up and what activities we do. 
     - The user might be interested in the activities we do. Also the added video can draw their attention in a different way. 
-![This is the Get Involved page](../portfolio-project-1/docs/get-involved1.png)
-![This is the Get Involved page](../portfolio-project-1/docs/get-involved2.png)
-![This is the Get Involved page](../portfolio-project-1/docs/get-involved3.png)
+![This is the Get Involved page](./docs/get-involved1.png)
+![This is the Get Involved page](./docs/get-involved2.png)
+![This is the Get Involved page](./docs/get-involved3.png)
 * Contact Form
     - A contact form asking for your name, email, continent and message. All fields are required except for the Continent field.
     - The user can fill in this form to get in contact with Christian Surfers. 
-![This is the contact form](../portfolio-project-1/docs/contact-form.png)
+![This is the contact form](./docs/contact-form.png)
 
 ## Features Left To Implement
 * In the future I would like to add a webshop to this website where I could sell items like t-shirts, caps, Bibles and more to support the movement of Christian Surfers. 
