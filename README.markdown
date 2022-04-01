@@ -1,7 +1,7 @@
 # Christian Surfers Skiffa
 
 This project is created to help surfers get in contact with the local surf community in Scheveningen ( skiffa in short slang language ).
-My goal is to make it easier to be found on the internet as we did not have a website before. Internationaly we have a website but not locally, which made it hard to reach this specific surfing community. While I know a lot of surfers who are trying to connect with others and are still struggling finding a way. 
+My goal is to make it easier for users to find Christian Surfers on the internet, knowing that there is a need for. There is only an international website which makes it hard to reach this specific local surfing community. While I know a lot of surfers who are trying to connect with others and are still struggling finding a way. 
 
 As Christian Surfers we want to live life together. Having fun, enjoying coffee's, surfing pumping waves and share our main believe in Jesus above all.  
 
@@ -68,3 +68,21 @@ As Christian Surfers we want to live life together. Having fun, enjoying coffee'
 At this very moment of writing this README file, there are no unfixed bugs.
 
 ## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to Settings
+- On your left you can find the menu. Scroll down and navigate to Pages
+- From the source section drop-down menu, select Main and click on Save
+- On top of the page a link will show saying that the website is publiced
+
+The link can be found here: https://sharondrinkwaard.github.io/portfolio-project-1/
+
+## Credits
+
+### Content
+- The text of the About Us page is taken from [Christian Surfers International](https://www.christiansurfers.net/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The lettertype was taken from [Google Fonts](https://fonts.google.com/)
+- Instructions on how to make video's responsive were taken from [W3schools](https://www.w3schools.com/)
+### Media
+- The header images are taken from [Pexels](https://www.pexels.com/nl-nl/)
+- The video's are taken from [Vimeo](https://vimeo.com/)
